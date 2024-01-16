@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14AA48202B56CB26004BC361 /* VectorArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AA481F2B56CB26004BC361 /* VectorArithmetic.swift */; };
+		14AA48222B56CC61004BC361 /* MsPacMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AA48212B56CC61004BC361 /* MsPacMan.swift */; };
+		14BEF3FA2B56BC0C00265587 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEF3F92B56BC0C00265587 /* Triangle.swift */; };
+		14BEF3FC2B56BDED00265587 /* JoystickBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEF3FB2B56BDED00265587 /* JoystickBorder.swift */; };
+		14BEF3FF2B56C2FF00265587 /* MovingShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEF3FE2B56C2FF00265587 /* MovingShadow.swift */; };
+		14F8AE1A2B56A1B400EF8F9B /* MazeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8AE192B56A1B400EF8F9B /* MazeView.swift */; };
+		14F8AE1C2B56A24F00EF8F9B /* PacManShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8AE1B2B56A24F00EF8F9B /* PacManShape.swift */; };
+		14F8AE1E2B56A35700EF8F9B /* GhostShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8AE1D2B56A35700EF8F9B /* GhostShape.swift */; };
+		14F8AE202B56A44600EF8F9B /* EyesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8AE1F2B56A44600EF8F9B /* EyesView.swift */; };
+		14F8AE222B56A4AC00EF8F9B /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8AE212B56A4AC00EF8F9B /* Character.swift */; };
+		AA46979A2AC7C37600252289 /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4697992AC7C37600252289 /* Joystick.swift */; };
+		AA53B6672AC5B20100F411E7 /* GhostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53B6662AC5B20100F411E7 /* GhostView.swift */; };
+		AA53B6692AC5BD3000F411E7 /* CharacterDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53B6682AC5BD3000F411E7 /* CharacterDisplay.swift */; };
+		AA89ED0C2AC8B610005997C7 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA89ED0B2AC8B610005997C7 /* Direction.swift */; };
+		AABAD01E2AC527E10085E6C8 /* PacManApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABAD01D2AC527E10085E6C8 /* PacManApp.swift */; };
+		AABAD0222AC527E20085E6C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABAD0212AC527E20085E6C8 /* Assets.xcassets */; };
+		AABAD0252AC527E20085E6C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABAD0242AC527E20085E6C8 /* Preview Assets.xcassets */; };
+		AABAD02C2AC5282F0085E6C8 /* PacManView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABAD02B2AC5282F0085E6C8 /* PacManView.swift */; };
+		AABAD02E2AC52BD00085E6C8 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABAD02D2AC52BD00085E6C8 /* GameView.swift */; };
+		AABAD0302AC52C5E0085E6C8 /* PressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABAD02F2AC52C5E0085E6C8 /* PressableButton.swift */; };
+		AABAD0322AC52FD20085E6C8 /* Pellets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABAD0312AC52FD20085E6C8 /* Pellets.swift */; };
+		AAC7FEE12ACF58BD006DCD94 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC7FEE02ACF58BD006DCD94 /* Maze.swift */; };
+		AAF9FC0F2ACD893000A28A1C /* ArcadeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9FC0E2ACD893000A28A1C /* ArcadeButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14AA481F2B56CB26004BC361 /* VectorArithmetic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorArithmetic.swift; sourceTree = "<group>"; };
+		14AA48212B56CC61004BC361 /* MsPacMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsPacMan.swift; sourceTree = "<group>"; };
+		14BEF3F92B56BC0C00265587 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		14BEF3FB2B56BDED00265587 /* JoystickBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickBorder.swift; sourceTree = "<group>"; };
+		14BEF3FE2B56C2FF00265587 /* MovingShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingShadow.swift; sourceTree = "<group>"; };
+		14F8AE192B56A1B400EF8F9B /* MazeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeView.swift; sourceTree = "<group>"; };
+		14F8AE1B2B56A24F00EF8F9B /* PacManShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacManShape.swift; sourceTree = "<group>"; };
+		14F8AE1D2B56A35700EF8F9B /* GhostShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostShape.swift; sourceTree = "<group>"; };
+		14F8AE1F2B56A44600EF8F9B /* EyesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyesView.swift; sourceTree = "<group>"; };
+		14F8AE212B56A4AC00EF8F9B /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		AA4697992AC7C37600252289 /* Joystick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
+		AA53B6662AC5B20100F411E7 /* GhostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostView.swift; sourceTree = "<group>"; };
+		AA53B6682AC5BD3000F411E7 /* CharacterDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDisplay.swift; sourceTree = "<group>"; };
+		AA89ED0B2AC8B610005997C7 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		AABAD01A2AC527E10085E6C8 /* PacMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABAD01D2AC527E10085E6C8 /* PacManApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacManApp.swift; sourceTree = "<group>"; };
+		AABAD0212AC527E20085E6C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AABAD0242AC527E20085E6C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AABAD02B2AC5282F0085E6C8 /* PacManView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacManView.swift; sourceTree = "<group>"; };
+		AABAD02D2AC52BD00085E6C8 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		AABAD02F2AC52C5E0085E6C8 /* PressableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressableButton.swift; sourceTree = "<group>"; };
+		AABAD0312AC52FD20085E6C8 /* Pellets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pellets.swift; sourceTree = "<group>"; };
+		AAC7FEE02ACF58BD006DCD94 /* Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
+		AAF9FC0E2ACD893000A28A1C /* ArcadeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABAD0172AC527E10085E6C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14BEF3FD2B56C2D500265587 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				14AA481F2B56CB26004BC361 /* VectorArithmetic.swift */,
+				14BEF3FE2B56C2FF00265587 /* MovingShadow.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		14F8AE172B569FBF00EF8F9B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA53B6662AC5B20100F411E7 /* GhostView.swift */,
+				AABAD02B2AC5282F0085E6C8 /* PacManView.swift */,
+				AA53B6682AC5BD3000F411E7 /* CharacterDisplay.swift */,
+				AABAD02D2AC52BD00085E6C8 /* GameView.swift */,
+				14F8AE192B56A1B400EF8F9B /* MazeView.swift */,
+				14F8AE1F2B56A44600EF8F9B /* EyesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14F8AE182B569FD800EF8F9B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AABAD0232AC527E20085E6C8 /* Preview Content */,
+				AABAD0212AC527E20085E6C8 /* Assets.xcassets */,
+				AABAD01D2AC527E10085E6C8 /* PacManApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AA89ED0A2AC8B5FE005997C7 /* Enuns */ = {
+			isa = PBXGroup;
+			children = (
+				AA89ED0B2AC8B610005997C7 /* Direction.swift */,
+				14F8AE212B56A4AC00EF8F9B /* Character.swift */,
+			);
+			path = Enuns;
+			sourceTree = "<group>";
+		};
+		AAA458672AC7B24E00B7631D /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				AABAD0312AC52FD20085E6C8 /* Pellets.swift */,
+				AA4697992AC7C37600252289 /* Joystick.swift */,
+				AAF9FC0E2ACD893000A28A1C /* ArcadeButton.swift */,
+				AABAD02F2AC52C5E0085E6C8 /* PressableButton.swift */,
+				14AA48212B56CC61004BC361 /* MsPacMan.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		AAA458692AC7B27100B7631D /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				AAC7FEE02ACF58BD006DCD94 /* Maze.swift */,
+				14BEF3FB2B56BDED00265587 /* JoystickBorder.swift */,
+				14BEF3F92B56BC0C00265587 /* Triangle.swift */,
+				14F8AE1B2B56A24F00EF8F9B /* PacManShape.swift */,
+				14F8AE1D2B56A35700EF8F9B /* GhostShape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		AABAD0112AC527E10085E6C8 = {
+			isa = PBXGroup;
+			children = (
+				AABAD01C2AC527E10085E6C8 /* PacMan */,
+				AABAD01B2AC527E10085E6C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABAD01B2AC527E10085E6C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABAD01A2AC527E10085E6C8 /* PacMan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABAD01C2AC527E10085E6C8 /* PacMan */ = {
+			isa = PBXGroup;
+			children = (
+				14BEF3FD2B56C2D500265587 /* Utils */,
+				14F8AE182B569FD800EF8F9B /* Application */,
+				AA89ED0A2AC8B5FE005997C7 /* Enuns */,
+				14F8AE172B569FBF00EF8F9B /* Views */,
+				AAA458692AC7B27100B7631D /* Shapes */,
+				AAA458672AC7B24E00B7631D /* Objects */,
+			);
+			path = PacMan;
+			sourceTree = "<group>";
+		};
+		AABAD0232AC527E20085E6C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AABAD0242AC527E20085E6C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABAD0192AC527E10085E6C8 /* PacMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABAD0282AC527E20085E6C8 /* Build configuration list for PBXNativeTarget "PacMan" */;
+			buildPhases = (
+				AABAD0162AC527E10085E6C8 /* Sources */,
+				AABAD0172AC527E10085E6C8 /* Frameworks */,
+				AABAD0182AC527E10085E6C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PacMan;
+			productName = PacMan;
+			productReference = AABAD01A2AC527E10085E6C8 /* PacMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABAD0122AC527E10085E6C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AABAD0192AC527E10085E6C8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AABAD0152AC527E10085E6C8 /* Build configuration list for PBXProject "PacMan" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AABAD0112AC527E10085E6C8;
+			productRefGroup = AABAD01B2AC527E10085E6C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABAD0192AC527E10085E6C8 /* PacMan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABAD0182AC527E10085E6C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABAD0252AC527E20085E6C8 /* Preview Assets.xcassets in Resources */,
+				AABAD0222AC527E20085E6C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABAD0162AC527E10085E6C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABAD0302AC52C5E0085E6C8 /* PressableButton.swift in Sources */,
+				14F8AE1C2B56A24F00EF8F9B /* PacManShape.swift in Sources */,
+				AAC7FEE12ACF58BD006DCD94 /* Maze.swift in Sources */,
+				AA46979A2AC7C37600252289 /* Joystick.swift in Sources */,
+				14BEF3FA2B56BC0C00265587 /* Triangle.swift in Sources */,
+				AABAD0322AC52FD20085E6C8 /* Pellets.swift in Sources */,
+				AAF9FC0F2ACD893000A28A1C /* ArcadeButton.swift in Sources */,
+				AA53B6692AC5BD3000F411E7 /* CharacterDisplay.swift in Sources */,
+				14BEF3FF2B56C2FF00265587 /* MovingShadow.swift in Sources */,
+				14F8AE1E2B56A35700EF8F9B /* GhostShape.swift in Sources */,
+				14AA48202B56CB26004BC361 /* VectorArithmetic.swift in Sources */,
+				AABAD02C2AC5282F0085E6C8 /* PacManView.swift in Sources */,
+				AABAD02E2AC52BD00085E6C8 /* GameView.swift in Sources */,
+				AABAD01E2AC527E10085E6C8 /* PacManApp.swift in Sources */,
+				14F8AE222B56A4AC00EF8F9B /* Character.swift in Sources */,
+				14F8AE1A2B56A1B400EF8F9B /* MazeView.swift in Sources */,
+				AA53B6672AC5B20100F411E7 /* GhostView.swift in Sources */,
+				14BEF3FC2B56BDED00265587 /* JoystickBorder.swift in Sources */,
+				AA89ED0C2AC8B610005997C7 /* Direction.swift in Sources */,
+				14AA48222B56CC61004BC361 /* MsPacMan.swift in Sources */,
+				14F8AE202B56A44600EF8F9B /* EyesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AABAD0262AC527E20085E6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AABAD0272AC527E20085E6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AABAD0292AC527E20085E6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PacMan/Application/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P3G4Y9CSP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PacMan;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarceloDeAraujo.PacMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AABAD02A2AC527E20085E6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PacMan/Application/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P3G4Y9CSP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PacMan;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarceloDeAraujo.PacMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABAD0152AC527E10085E6C8 /* Build configuration list for PBXProject "PacMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABAD0262AC527E20085E6C8 /* Debug */,
+				AABAD0272AC527E20085E6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABAD0282AC527E20085E6C8 /* Build configuration list for PBXNativeTarget "PacMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABAD0292AC527E20085E6C8 /* Debug */,
+				AABAD02A2AC527E20085E6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AABAD0122AC527E10085E6C8 /* Project object */;
+}
